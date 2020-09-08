@@ -2,7 +2,7 @@
 This simple utility allows you to browse for a SQL text file, and then click the Remove Data Sync button, and any block of SQL that contains the word DataSync is not copied.
 
 # The Problem
-One of clients uses SQL Data Sync to copy the data from SQL Server on a VM to Azure SQL for backup that is not on the VM itself.
+One of my clients uses SQL Data Sync to copy the data from SQL Server on a VM to Azure SQL for backup that is not on the VM itself.
 
 Whenever I script the database from the Test Server to work on a problem on my machine, I have to manually remove all the Data Sync tables and procedures that get copied, and it is more tables and procedures than the database has without DataSync. It was a pain in the butt to do this.
 
